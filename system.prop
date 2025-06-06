@@ -1,0 +1,45 @@
+# ==============================
+# ✅ RENDERENGINE & UI PIPELINE
+# ==============================
+debug.hwui.skip_empty_damage=true
+hwui.disable_scissor_opt=true
+debug.hwui.disable_blur=false
+debug.hwui.render_dirty_regions=false
+vendor.debug.renderengine.backend=skiaglthreaded
+
+# ==============================
+# ✅ GPU / OPENGL SETTINGS
+# ==============================
+persist.sys.ui.hw=true
+persist.sys.gpu.disable_ubwc=1
+persist.sys.force_sw_gles=0
+persist.graphics.vulkan.disable=true
+
+# ==============================
+# ✅ DALVIK VM / HEAP MANAGEMENT
+# ==============================
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaputilization=0.75
+dalvik.vm.minfree=8m
+dalvik.vm.maxfree=32m
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.appimageformat=lz4
+
+# ==============================
+# ✅ SCROLLING & TOUCH RESPONSE
+# ==============================
+persist.sys.scrollingcache=3
+ro.min_pointer_dur=1
+view.scroll_friction=10
+windowsmgr.max_events_per_sec=90
+
+# ==============================
+# ✅ OPTIONAL DISPLAY BOOST
+# ==============================
+persist.sys.sf.native_mode=2
+persist.sys.sf.color_mode=1
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
