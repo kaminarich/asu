@@ -1,0 +1,15 @@
+- Enabled 64-bit dex2oat compilation
+- Activated ART service and JIT z-profile support
+- Enabled app image startup cache and JIT execution mode
+- Optimized boot image deduplication
+- Adjusted SurfaceFlinger timers and refresh rate logic
+- Disabled HWC copy for virtual displays
+- Enabled precise present time offset
+- Enabled JIT and profile-guided optimizations
+- Set 6 threads for dex2oat and image compilation
+- Enabled secondary dex optimization
+- Changed app image format to LZ4
+- Enabled minidebug info and startup string resolution
+- 0.7 animation scale
+- Disable scrolling cache
+- Skiaglthreaded backend
